@@ -1,0 +1,194 @@
+html{
+    font-size: 16px;
+}
+
+body{
+    background-image: linear-gradient(45deg, #BBD2C5, #536976 );
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: scroll;
+    opacity: 1;
+    font-family: 'Vidaloka', serif;
+}
+
+/*---Header and navigation---*/
+
+#logo {
+    height: 4.5rem;
+    width: 6.5rem;
+}
+
+#navigation h2 {
+    margin-left: 2rem;
+}
+
+#navigation{
+    display: flex;
+    font-size: 1.25rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#navigation ul {
+    list-style-type: none;
+    margin-left: 35rem;
+    
+}
+
+ul li{
+    display: inline-block;
+    text-decoration: underline;
+    margin-right: 10px;
+    justify-content: center;
+    color: #0F2027;
+}
+
+/*---About section---*/
+
+#mission{
+    display: flex;
+    
+}
+
+#mission img{
+    width: 100%;
+    height: 45.125rem;
+    position: relative;
+    margin-top: 1.50rem;
+}
+
+#missiontext{
+    background-color: #0F2027;
+    position: absolute;
+    top: 40%;
+    color: #BBD2C5;
+    margin-left: 5rem;
+    padding: 3rem;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#missiontext h2{
+    letter-spacing: 0.5rem;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+#joinusbtn {
+    border: #BBD2C5;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: #a1b2bbec;
+    color: #0F2027;
+    font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 0.25rem 0.25rem #BBD2C5;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+#about {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.aboutpara {
+    text-align: justify;
+    padding: 1rem;
+    
+}
+
+/*---Locations---*/
+
+#locations{
+    display: flex;
+    background-color: #0F2027;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.locationnames {
+    color: #BBD2C5;
+    text-align: center;
+    margin: 0.25rem;
+    padding: 0.125rem;
+
+}
+
+.locationnames:hover {
+    transform: scale(1.05);
+}
+
+.locationnames img{ 
+    flex: 0 0 200px;
+    margin-top: 1rem;
+    /*margin-left: 1.5rem;*/
+}
+
+/*---Team members---*/
+
+#team{
+    display: flex;
+    background-color: #BBD2C5;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.teamnames {
+    color: #0F2027;
+    text-align: center;
+    margin: 0.25rem;
+    padding: 0.125rem;
+}
+
+.teamnames img{ 
+    flex: 0 0 100px;
+    margin-top: 1rem;
+    /*margin-left: 1.5rem;*/
+}
+
+.teamnames:hover {
+    transform: scale(1.05);
+}
+
+/*---Contact us---*/
+
+#contactus{
+    display: flex;
+    background-color: #0F2027;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.contactdetails {
+    color: #BBD2C5;
+    text-align: center;
+    margin: 0.25rem;
+    padding: 0.125rem;
+    line-height: 1.5rem;
+}
+
+.contactdetails img{
+    flex: 0 0 150px;
+    
+}
+
+.contactdetails h3{
+    margin-top: 50%;
+}
+/*---Footer---*/
+
+footer{
+    display: block;
+    padding: 1rem;
+    background-image: linear-gradient(90deg, #0F2027, #BBD2C5, #536976, #0F2027);
+    font-family:'Cute Font', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    
+}
